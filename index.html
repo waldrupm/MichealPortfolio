@@ -13,6 +13,19 @@
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/personal.css">
   <script async type="text/javascript" src="../js/bulma.js"></script>
+  <style>
+    .limit-width {
+      max-width: 700px;
+    }
+    .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .section {
+      padding: 1.5rem 1.5rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -82,12 +95,16 @@
     <!-- Title -->
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
-      <h4 class="subtitle is-5">Highly dedicated to mastering craft</h4>
+      <h4 class="subtitle is-5">I'm a military veteran (that's right, tax breaks for you!) with an obsession for learning and mastering new skills. </h4>
       <div class="container">
-        <p>I'm a military veteran (that's right, tax breaks for you!) who left the military to pursue an education and become a part of something exciting. I completed a Bachelor's of Science degree in Biology (Huma</p>
+        <div class="center">
+            <p class="limit-width">After an Honorable Discharge from the military, I completed a Bachelor's of Science degree in Biology (Human focused) from Old Dominion University last year. 
+              I then joined and graduated the Udacity Blockchain Developer Nanodegree. 
+            </p>
+        </div>
         <br>
         <div class="buttons has-addons is-centered">
-          <a href="https://github.com/waldrupm" class="button is-link">Github</a>
+          <a href="https://github.com/waldrupm" class="button is-link" target="_blank">Github</a>
           <a href="#" class="button is-link">LinkedIn</a>
         </div>
       </div>
