@@ -1,0 +1,84 @@
+/* Developed for DevMike.me by Micheal Waldrup
+https://github.com/waldrupm */
+
+/* DEFAULTS */
+html {
+  background-color: #262933;
+}
+
+/* UNIVERSAL */
+.is-subtle-background {
+  background-color: #393D4D;
+}
+
+.has-text-bright {
+  color: #f2f2f2;
+}
+
+.has-text-subtle {
+  color: #D4D4D4;
+}
+
+a.navbar-item:hover {
+  background-color: #393D4D;
+  color: #E0A03F;
+}
+
+a.navbar-item:active {
+  background-color: #393D4D;
+  color: #E0A03F;
+}
+
+.limit-width {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #393D4D;
+  color: #f2f2f2;
+  border-color: #E0A03F;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button:hover {
+  background-color: #E0A03F;
+  color: #393D4D;
+  border-color: #393D4D;
+}
+
+
+/* NAVIGATION */
+.nav-logo {
+  color: #f2f2f2;
+  font-weight: 500;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.stroke-under {
+  border-bottom: 1px solid #E0A03F;
+}
+
+
+
+
+/* HERO */
+.title {
+  color: #E0A03F;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.subtitle {
+  color: #F2F2F2;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.hero-buttons {
+  padding-top: 1.5rem;
+}
