@@ -6,6 +6,8 @@ html {
   background-color: #262933;
 }
 
+
+
 /* UNIVERSAL */
 .is-subtle-background {
   background-color: #393D4D;
@@ -48,6 +50,10 @@ a.navbar-item:active {
   border-color: #393D4D;
 }
 
+.is-horizontal-center {
+  justify-content: center;
+}
+
 
 /* NAVIGATION */
 .nav-logo {
@@ -81,4 +87,11 @@ a.navbar-item:active {
 
 .hero-buttons {
   padding-top: 1.5rem;
+}
+
+@media screen and (min-width: 769px),print{
+  .hero.is-medium .hero-body{
+    padding-bottom: 5.5rem;
+    padding-top: 9rem;
+  }
 }
