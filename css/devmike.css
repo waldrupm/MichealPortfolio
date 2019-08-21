@@ -4,6 +4,13 @@ https://github.com/waldrupm */
 /* DEFAULTS */
 html {
   background-color: #262933;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 1408px) {
+  .container {
+    max-width: 1152px;
+  }
 }
 
 
@@ -54,11 +61,27 @@ a.navbar-item:active {
   justify-content: center;
 }
 
+.is-vertical-center {
+  align-items: center;
+}
+
+.sectionTitle {
+  color: #E0A03F;
+  font-size: 54;
+  font-weight: 500;
+}
+
+.hideScroll {
+  overflow-y: hidden;
+}
+
 
 /* NAVIGATION */
 .nav-logo {
   color: #f2f2f2;
   font-weight: 500;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-link {
@@ -106,4 +129,72 @@ a.navbar-burger:hover {
     padding-bottom: 6rem;
     padding-top: 9rem;
   }
+}
+
+/* SKILLS */
+.skillCard {
+  background-color: #393D4D;
+  border: 1px solid #f2f2f2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pad-card {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* ABOUT ME */
+.is-my-photo {
+  border: 1px solid #f2f2f2;
+}
+
+p.about-me {
+  font-family: 'Open-sans', sans-serif;
+  color: #f2f2f2;
+  margin-bottom: 1rem;
+}
+
+/* PROJECTS */
+
+.project-card {
+  background-color: #262933;
+  box-shadow: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-card .card-content {
+  padding: .5rem;
+}
+
+.project-text {
+  font-weight: 500;
+  font-style: italic;
+  color: #b2b2b2;
+}
+
+/* CONTACT FORM */
+a.form-button {
+margin-bottom: 1rem;
+width: 50%;
+}
+
+.label {
+  color: #f2f2f2;
+}
+
+.control.has-icons-left .icon {
+  color: #E0A03F;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #E0A03F;
+  color: #262933;
+}
+
+p.footer-text {
+  font-weight: 700;
 }

@@ -12,23 +12,6 @@
   <!-- Bulma Version 0.7.x-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
   <link rel="stylesheet" href="css/devmike.css">
-  <style>
-    .nav-logo {
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size: 24px;
-      color: #FCFCFC;
-    }
-    .dark {
-      background-color: #262933;
-    }
-    .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    }
-    
-  </style>
 </head>
 
 <body>
@@ -45,9 +28,9 @@
       </div>
       <div class="navbar-menu" id="theMenu">
         <div class="navbar-end">
-          <a href="#about" class="navbar-item nav-link has-text-subtle">About</a>
+          <a href="#aboutMe" class="navbar-item nav-link has-text-subtle">About</a>
           <a href="#portfolio" class="navbar-item nav-link has-text-subtle">Porfolio</a>
-          <a href="#contact" class="navbar-item nav-link has-text-subtle">Contact</a>
+          <a href="#contactLink" class="navbar-item nav-link has-text-subtle">Contact</a>
         </div>
       </div>
     </div>
@@ -84,7 +67,282 @@
   </div>
 
   <!-- SKILLS -->
-  
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-full">
+          <h2 class="is-size-2 sectionTitle">I can:</h2>
+        </div>
+      </div>
+      <div class="columns"> <!-- first row of cards -->
+        <div class="is-one-quarter column">
+          <div class="card skillCard">
+            <div class="card-image pad-card">
+              <figure class="image is-3by2">
+                <img src="images/ethereum.svg" alt="ethereum">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content hideScroll">
+                  <p class="title is-5 has-text-centered">Write smart contracts</p>
+                  <p class="subtitle is-6 has-text-centered">with Ethereum Network / Solidity / TruffleSuite</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="is-one-quarter column">
+          <div class="card skillCard">
+            <div class="card-image pad-card">
+              <figure class="image is-3by2">
+                <img src="images/nodejs.svg" alt="ethereum">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content hideScroll">
+                  <p class="title is-5 has-text-centered">Create Web Apps</p>
+                  <p class="subtitle is-6 has-text-centered">with NodeJS, Express, Graphql, and MongoDB</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="is-one-quarter column">
+          <div class="card skillCard">
+            <div class="card-image pad-card">
+              <figure class="image is-3by2">
+                <img src="images/react.svg" alt="ethereum">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content hideScroll">
+                  <p class="title is-5 has-text-centered">Design Fast Front-Ends</p>
+                  <p class="subtitle is-6 has-text-centered">with React, Bulma, vanilla JS, and CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="is-one-quarter column">
+          <div class="card skillCard">
+            <div class="card-image pad-card">
+              <figure class="image is-3by2">
+                <img src="images/mocha.svg" alt="ethereum">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content hideScroll">
+                  <p class="title is-5 has-text-centered">Write Proven Code</p>
+                  <p class="subtitle is-6 has-text-centered">by testing with Mocha and Chai</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- separate -->
+    <div class="container is-flex is-horizontal-center hero-buttons">
+      <img src="images/dots.png" alt="separate">
+    </div>
+
+  <!-- ABOUT ME -->
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-full">
+          <h2 class="is-size-2 sectionTitle">About Me:</h2>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <figure class="image is-square">
+            <img class="is-my-photo" src="images/myPhotoSmall.jpg" alt="Photo of me">
+          </figure>
+        </div>
+        <div class="column is-three-quarters">
+          <p class="about-me" id="aboutMe">
+              I’m a veteran and I have a serious obsession with learning and improving skills. I read a lot (almost all non-fiction), and I’m an absolute family man. I know how to lead, and to follow when that’s my role. I welcome challenges and learning new skills in relatively short periods of time. I proved these skills during my time in the Navy as a Nuclear Electrician.
+          </p>
+          <p class="about-me">
+              For employment, I’m looking for a role where I can regularly contribute to a team and continue to push my comfort zone further outward.
+          </p>
+          <p class="about-me">
+              I’d really love for you to take a look at my resume. What I lack in specific coding experience, I will absolutely make up for in my dedication to knowledge, hard-work, and team contribution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- separate -->
+  <div class="container is-flex is-horizontal-center hero-buttons">
+      <img src="images/dots.png" alt="separate">
+  </div>
+
+   <section class="section">
+     <div class="container">
+       <div class="columns">
+         <div class="column is-full">
+           <h2 class="is-size-2 sectionTitle">My Projects:</h2>
+         </div>
+       </div>
+       <div class="columns">
+         <div class="column is-one-third">
+            <div class="card project-card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content has-centered-text">
+                      <p class="is-5">Project Name</p>
+                      <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                </div>
+            </div>
+         </div>
+         <div class="column is-one-third">
+            <div class="card project-card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content has-centered-text">
+                      <p class="is-5">Project Name</p>
+                      <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                </div>
+            </div>
+         </div>
+         <div class="column is-one-third">
+            <div class="card project-card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content has-centered-text">
+                      <p class="is-5">Project Name</p>
+                      <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                </div>
+            </div>
+         </div>
+       </div>
+       <div class="columns">
+          <div class="column is-one-third">
+             <div class="card project-card">
+                 <div class="card-image">
+                   <figure class="image is-4by3">
+                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                   </figure>
+                 </div>
+                 <div class="card-content has-centered-text">
+                       <p class="is-5">Project Name</p>
+                       <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                 </div>
+             </div>
+          </div>
+          <div class="column is-one-third">
+             <div class="card project-card">
+                 <div class="card-image">
+                   <figure class="image is-4by3">
+                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                   </figure>
+                 </div>
+                 <div class="card-content has-centered-text">
+                       <p class="is-5">Project Name</p>
+                       <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                 </div>
+             </div>
+          </div>
+          <div class="column is-one-third">
+             <div class="card project-card">
+                 <div class="card-image">
+                   <figure class="image is-4by3">
+                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                   </figure>
+                 </div>
+                 <div class="card-content has-centered-text">
+                       <p class="is-5">Project Name</p>
+                       <p class="is-6 project-text">tech, more tech, tech list, tech goes here</p>
+                 </div>
+             </div>
+          </div>
+        </div>
+     </div>
+   </section>
+
+       <!-- separate -->
+  <div class="container is-flex is-horizontal-center hero-buttons">
+      <img src="images/dots.png" alt="separate">
+  </div>
+
+  <!-- CONTACT BUTTONS -->
+  <section class="section is-medium">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-third is-flex is-horizontal-center" id="contactLink">
+          <a href="#link" class="button is-medium form-button">Resume</a>
+        </div>
+        <div class="column is-one-third is-flex is-horizontal-center">
+            <a href="#link" class="button is-medium form-button">Github</a>
+        </div>
+        <div class="column is-one-third is-flex is-horizontal-center">
+            <a href="#link" class="button is-medium form-button">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+         <!-- separate -->
+         <div class="container is-flex is-horizontal-center">
+            <img src="images/dots.png" alt="separate">
+        </div>
+      
+
+  <!-- CONTACT FORM -->
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-third is-offset-one-third">
+          <h2 class="is-size-3 sectionTitle">Let's Talk:</h2>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-third is-offset-one-third">
+          <div class="field">
+            <label for="email" class="label">Email</label>
+            <div class="control has-icons-left">
+              <input type="text" class="input" placeholder="email">
+              <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message" class="label">Message</label>
+            <div class="control"><textarea name="" id="" cols="30" rows="7" class="textarea"></textarea></div>
+          </div>
+          <div class="field">
+            <div class="control"><button class="button">Message Me</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p class="footer-text">
+          Made by Micheal Waldrup - 2019
+      </p>
+    </div>
+  </footer>
 
   <script src="js/devmike.js"></script>
 </body>
