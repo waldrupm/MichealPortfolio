@@ -175,6 +175,17 @@ p.about-me {
   color: #b2b2b2;
 }
 
+a.project-link {
+  color: #f2f2f2;
+}
+a.project-link:hover {
+  color: #E0A03F;
+  text-decoration: underline;
+}
+a.project-link:active {
+  color: #D4D4D4;
+}
+
 /* CONTACT FORM */
 a.form-button {
 margin-bottom: 1rem;
